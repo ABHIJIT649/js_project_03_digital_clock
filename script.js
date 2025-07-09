@@ -3,3 +3,9 @@
 
 
 
+
+setInterval(function () {
+    let date = new Date ()
+    // console.log(date.toLocaleDateString());
+    clock.innerHTML = date.toLocaleTimeString();
+} , 1000) //1000 mean 1 sec
